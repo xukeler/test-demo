@@ -1,12 +1,16 @@
 <template>
     <div>
-        得的
+        {{name}}
     </div>
 </template>
 
 <script>
     export default {
-        
+        data(){
+            return{
+                name:"giiid"
+            }
+        }
     }
 </script>
 
